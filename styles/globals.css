@@ -18,3 +18,10 @@
   background: linear-gradient(to right, var(--primary) 30%, rgb(86, 40, 0) 40%, var(--primary) 70%);
   /* background-color: var(--primary); */
 }
+
+.logo {
+  background-image: url("/assets/logo.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
