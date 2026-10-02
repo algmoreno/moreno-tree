@@ -4,11 +4,12 @@ import Image from 'next/image'
 
 function Navbar() {
   return (
-    <div className='flex bg-primary h-40'>
-      <div className='l-auto'>
-        <Image
+    <div className='flex bg-primary h-40 '>
+      <div className='ml-auto my-auto'>
+        <Image 
+          className="rounded-[1px]"
           height={400}
-          width={220}
+          width={100}
           src="/assets/logo.png"
           alt="Tree logo"
         />
